@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Syncopate');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+background-color: transparent;
+font-family: 'Syncopate', sans-serif;
+color: black;
+}
+header {
+  position: flexed;
+  top: 0;
+  min-height: 75px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+ font-weight: 400;
+ 
+  }
+
+@media (max-height: 800px) {
+  img {
+    width: 100px;
+  }
+}
+
+nav ul {
+  padding: 0;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+nav ul li {
+  display: inline-flex;
+  margin: 0 10px;
+}
+p {
+color: black;
+}
+#page-wrapper {
+  position: relative;
+}
+
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 60vw;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 20px;
+}
+
+
+
+
+
+
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 0 20px;
+  height: 100px;
+  border-radius: 5%;
+  background: Fuchsia;
+  font-family: 'Syncopate', sans-serif;
+  font-weight: 200;
+  font-size: 1em;
+  border: 3px fuchsia solid;
+  cursor: pointer;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 50px;
+  h2 {
+  margin-bottom: 20px;
+  w0rd-wrap: break-word;
+  }
+}
+
+input[type="submit"] {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  
+  @media (max-width: 650px) {
+    margin-top: 120px;
+  }
+}
+}
+#details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  width: 100vw;
+  padding: 20px;
+  
+  @media (max-width: 550px) {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    height: 150px;
+  }
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 125px;
+  width: 80vw;
+  padding: 5px;
+}
+#how-to {
+  margin-top: 50px;
+  display: flex; 
+  justify-content: center;
+  padding-bottom: 50px;
+  
+  iframe {
+    max-width: 560px;
+    width: 100%;
+  }
+}
+
+.wrapper {
+  display:flex;
+  justify-content:space-around;
+  position: relative;
+}
+
+.box {
+  margin-top: 
+  flex: 0 0 10%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px dashed black;
+  background-color: clear;
+  
+}
+
+
+
+button {
+  border: 0;
+  margin: 15px 0;
+  padding: 5px 5px 5px 5px;
+  height: 40px;
+  border-radius: 5%;
+  background: Fuchsia;
+  font-family: 'Syncopate', sans-serif;
+  font-weight: 200;
+  font-size: 1em;
+  border: 3px fuchsia solid;
+  cursor: pointer;
+}
+ 
+
+footer {
+  margin-top: 30px;
+  padding: 20px;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  
+  
+  li {
+    padding: 0 20px;
+  }
+}
+
+span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  
+}
